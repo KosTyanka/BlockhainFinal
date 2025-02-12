@@ -20,17 +20,24 @@ This project is a decentralized AI Model Marketplace where users can:
 - **MetaMask** (Wallet Integration)
 
 ## Setup Instructions
-1️⃣ Clone the repository:
+1️⃣ Clone the repository and install dependecies:
 ```sh
 git clone https://github.com/KosTyanka/BlockhainFinal.git
 cd BlockhainFinal
+npm install
+npm install --save-dev hardhat
 ```
+install metamask https://metamask.io/
+
 ## Usage
 
 start start_hardhat.bat
+configure your metamask, add new wallets.
 start deploy_contracts.bat
 start start_react.bat
 you will be headed to localhost (probably)
+Connect via "connect wallet"
+accept request from metamask and now you can list your aimodels
 
 ## Demo Screenshots
 check index.png
